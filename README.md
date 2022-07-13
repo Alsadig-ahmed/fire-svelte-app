@@ -7,4 +7,4 @@ the deploy command for firebase
 firebase deploy --only hosting:fire-svelte-app
 ```
 
-the site is live on [firebase hosting](https://fire-svelte-app.web.app/)
+the site is live on [firebase hosting](https://fire-svelte-app.firebaseapp.com/)
