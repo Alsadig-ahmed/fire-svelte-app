@@ -25,12 +25,8 @@ jobs:
     # from after "npm run build" till the next step i.e. "Firebase Deploy"
     - name: Build
       run: |
-        cd client
         npm i
         npm run build
-        cd ..
-        cd functions
-        npm i
 
     # Install firebase tools and deploy to firebase
     # using the token we created earlier
