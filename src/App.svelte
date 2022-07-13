@@ -1,5 +1,7 @@
 <script>
-  import logo from './assets/svelte.png'
+  import Adddata from './Adddata.svelte'
+import logo from './assets/svelte.png'
+import Datelist from './Datelist.svelte';
   import Counter from './lib/Counter.svelte'
 </script>
 
@@ -8,6 +10,8 @@
   <h1>Hello world!</h1>
   <h5>I like firebase!</h5>
 
+  <Adddata />
+  <Datelist />
   <Counter />
 
   <p>
