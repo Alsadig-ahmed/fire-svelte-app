@@ -6,25 +6,15 @@ import Datelist from './Datelist.svelte';
 </script>
 
 <main>
-  <img src={logo} alt="Svelte Logo" />
-  <h1>Hello world!</h1>
+  <!-- <img src={logo} alt="Svelte Logo" /> -->
+  <!-- <h1>Hello world!</h1> -->
   
   <Adddata />
   <h5>I like firebase!</h5>
   <Datelist />
-  <Counter />
+  <!-- <Counter /> -->
 
-  <p>
-    Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte
-    apps.
-  </p>
-
-  <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme">SvelteKit</a> for
-    the officially supported framework, also powered by Vite!
-  </p>
 </main>
-
 <style>
   :root {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
@@ -35,11 +25,6 @@ import Datelist from './Datelist.svelte';
     text-align: center;
     padding: 1em;
     margin: 0 auto;
-  }
-
-  img {
-    height: 16rem;
-    width: 16rem;
   }
 
   h1 {
